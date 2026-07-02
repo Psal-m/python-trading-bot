@@ -6,15 +6,15 @@ from alpaca.trading.requests import MarketOrderRequest
 from alpaca.trading.enums import OrderSide, TimeInForce
 #key
 
-API='PKAF5FI6WPOWSGRPJJWW65I4OD'
-SK='65vWYPQRDTYkSN8FKg989ff2EUt58QPcbvaLbvnd31g7'
+API='actual_key'
+SK='actual_secret'
 tc=TradingClient(API,SK,paper=True)
 #fetch
 sym = 'BTC-USD'
 order_sym = 'BTCUSD'
 status = "SEARCHING"
 buy_price = 0.0
-
+#proc
 dip = 0.005
 profit = 0.0075
 
