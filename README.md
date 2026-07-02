@@ -1,1 +1,2 @@
 # python-trading-bot
+#the bot connects to the Alpaca API to pull market data and run test trades without using real money. The code handles data fetching, processes market info, and executes simulated orders to see how different ideas play out. I set it up to keep the logic clear and included a requirements file so the whole thing is easy to run and test, making it simple to see exactly how the script interacts with the market.
